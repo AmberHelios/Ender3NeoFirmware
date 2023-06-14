@@ -1,0 +1,12 @@
+M140 S0 ;
+M106 S0 ;
+M104 S0 ;
+G91 ;
+G1 E-2 F2700 ;
+G1 E-2 Z0.2 F2400 ;
+G1 X5 Y5 F3000 ;
+G1 Z10 ;
+G90 ;
+M300 S440 P500 ;
+G1 X0 Y{machine_depth} ;
+M84 X Y E ;
